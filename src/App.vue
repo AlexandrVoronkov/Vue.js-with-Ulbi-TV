@@ -4,14 +4,6 @@
     <div><strong>Название:</strong> Пост о JS</div>
     <div><strong>Описание:</strong> Не удалось загрузить карту исходного кода с помощью инструментов разработчика: Не удалось загрузить контент для chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/js/content.js.map: </div>
   </div>
-  <div class="post">
-    <div><strong>Название:</strong> Пост о JS</div>
-    <div><strong>Описание:</strong> Не удалось загрузить карту исходного кода с помощью инструментов разработчика: Не удалось загрузить контент для chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/js/content.js.map: </div>
-  </div>
-  <div class="post">
-    <div><strong>Название:</strong> Пост о JS</div>
-    <div><strong>Описание:</strong> Не удалось загрузить карту исходного кода с помощью инструментов разработчика: Не удалось загрузить контент для chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/js/content.js.map: </div>
-  </div>
 </div>
 </template>
 
