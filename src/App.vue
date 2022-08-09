@@ -1,26 +1,46 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div>
+  <div class="post">
+    <div><strong>Название:</strong> Пост о JS</div>
+    <div><strong>Описание:</strong> Не удалось загрузить карту исходного кода с помощью инструментов разработчика: Не удалось загрузить контент для chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/js/content.js.map: </div>
+  </div>
+  <div class="post">
+    <div><strong>Название:</strong> Пост о JS</div>
+    <div><strong>Описание:</strong> Не удалось загрузить карту исходного кода с помощью инструментов разработчика: Не удалось загрузить контент для chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/js/content.js.map: </div>
+  </div>
+  <div class="post">
+    <div><strong>Название:</strong> Пост о JS</div>
+    <div><strong>Описание:</strong> Не удалось загрузить карту исходного кода с помощью инструментов разработчика: Не удалось загрузить контент для chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/js/content.js.map: </div>
+  </div>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+ data(){
+   return{
+     likes: 0,
+   }
+ },
+  methods: {
+   addLike(){
+     this.likes += 1;
+   }
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.post {
+  padding: 15px;
+  border: 2px solid rebeccapurple;
+  margin-top: 10px;
+}
+
 </style>
