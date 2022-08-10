@@ -13,7 +13,6 @@ export default {
       this.$emit('update:modelValue', event.target.value) // эммитим по особому шаблону,
                                                           // вторым параметром значение которое должно обновиться.
                                                           // Когда вводят в input, вызывается событие modelValue
-
     }
   }
 }
