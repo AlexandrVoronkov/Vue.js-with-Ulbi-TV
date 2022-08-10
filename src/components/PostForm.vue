@@ -11,17 +11,20 @@
         class="input"
         type="text"
         placeholder="Описание">
-    <button
+    <my-button
         class="btn"
+        style="align-self: flex-end; margin-top: 15px"
         @click="createPost"
     >
       Создать
-    </button>
+    </my-button>
   </form>
 </template>
 
 <script>
+
 export default {
+
   data(){
     return {
       post: {
@@ -33,7 +36,8 @@ export default {
   methods: {
     createPost(){
       this.post.id = Date.now();
-      this.$emit('create', this.post)
+      this.$emit('create', this.post) //создание события, первый аргумент - название,
+                                      // остальные передаются в функцию родителя
       this.post = {
         title: '',
         body: ''
@@ -55,12 +59,4 @@ form {
   flex-direction: column;
 }
 
-.btn {
-  margin-top: 15px;
-  align-self: flex-end;
-  padding: 10px 15px;
-  background: none;
-  color: rebeccapurple;
-  border: 1px solid rebeccapurple;
-}
 </style>
