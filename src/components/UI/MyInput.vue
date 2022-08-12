@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .input {
-  width: 100%;
+  width: 90%;
   border: 1px solid rebeccapurple;
   padding:  10px 15px;
   margin-top: 15px;
