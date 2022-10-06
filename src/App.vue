@@ -1,5 +1,5 @@
-<template>
-<div class="app">
+<template >
+<div class="app background">
   <h1>Страница с постами</h1>
   <div class="app__btns">
     <my-button
@@ -92,11 +92,15 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 .app__btns {
   margin: 15px 0;
   display: flex;
   justify-content: space-between;
+}
+.background{
+  background-color: ghostwhite;
 }
 
 </style>

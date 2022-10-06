@@ -14,7 +14,7 @@ export default {
 .btn {
   padding: 10px 15px;
   background: none;
-  color: rebeccapurple;
-  border: 1px solid rebeccapurple;
+  color: black;
+  border: 1px solid black;
 }
 </style>

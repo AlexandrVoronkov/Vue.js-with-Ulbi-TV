@@ -28,7 +28,7 @@ export default {
 <style scoped>
 .post {
   padding: 15px;
-  border: 2px solid rebeccapurple;
+  border: 2px solid black;
   margin-top: 10px;
   display: flex;
   align-items: center;

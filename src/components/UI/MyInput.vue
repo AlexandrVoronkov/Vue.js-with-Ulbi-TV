@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .input {
   width: 90%;
-  border: 1px solid rebeccapurple;
+  border: 1px solid black;
   padding:  10px 15px;
   margin-top: 15px;
 }
